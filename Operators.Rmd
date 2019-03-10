@@ -1,0 +1,133 @@
+---
+title: "R operators"
+output:
+  html_document:
+    df_print: paged
+---
+**Attribution operators**
+
+= or <-
+
+```{r}
+ex1 <- 4
+ex1
+ex2 = 4
+ex2
+```
+
+
+**Math Operators**
+
+Addtion (+)
+
+```{r}
+1+1 
+```
+
+Subtraction (-)
+
+```{r}
+1-1
+```
+
+Multiplication (*)
+
+```{r}
+1*4
+```
+
+Division (/)
+
+```{r}
+6/3
+```
+
+Exponentiation (^)
+
+```{r}
+2^4
+```
+Square root (sqrt)*
+
+```{r}
+sqrt(9)
+```
+* Note that to compute the square root we use a function, not an operator(we will understand the difference in future)
+
+Modulus (%%)
+
+```{r}
+10%%3
+```
+
+Integer division (%/%)
+
+```{r}
+10%/%3
+```
+
+**Logical Operators**
+
+
+Less than (<)
+
+```{r}
+3 < 4
+10 < 6
+10 < 10
+```
+
+Less or equal to (<=)
+
+```{r}
+3 <= 4
+10 <= 6
+10 <=10
+```
+
+Greater than (>)
+
+```{r}
+3 > 4
+10 > 6
+10 > 10
+```
+
+Greater or equal to (>=)
+
+```{r}
+3 >= 4
+10 >= 6
+10 >= 10
+```
+
+Equal to (==)*
+
+```{r}
+2 == 3
+2 == 2
+```
+* Note there's a difference between Equal operator (==) and attribution operator (=). This a common mistake!
+
+Not, negation operator (!)
+
+```{r}
+3 < 4 
+! 3 < 4
+2 == 2
+2 != 2
+```
+
+And (&)
+
+```{r}
+3 < 4 & 4 > -1
+23 == 46/2 & 43 - 4 == 12*5
+```
+
+Or (|)
+
+```{r}
+3 < 4 | 4 > 5
+23 == 46/2 | 43 - 4 == 12*5
+```
