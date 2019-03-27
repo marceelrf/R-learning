@@ -3,7 +3,7 @@ Um breve conjunto de scripts para ajudar aqueles que estão começando a trabalh
 
 ## Inicial
 Sequência:
-1) Operadores
-2) Classes
-3) Vetores
+1) Operadores (Operators.Rmd)
+2) Classes (classeR.md)
+3) Vetores ()
 4) Matrizes
